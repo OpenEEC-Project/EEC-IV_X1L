@@ -1,0 +1,775 @@
+
+ ----------------------------
+ SAD Version 3.06
+ ----------------------------
+
+ --- Input file = 'C:\Users\Anthony\sad\Windows\X1L.bin'. It is 57344 (0xe000) bytes
+
+
+ --- Read commands from directive file = C:\Users\Anthony\sad\Windows\X1L_dir.txt
+opts   :C F G N P S 
+
+          ^ Illegal Option
+
+
+ --- Start Disassembly -----
+Func 83c86 Invalid start value 4a3e
+Func 86e00 Invalid start value a305
+Func 87306 Invalid start value 80
+Func 87333 Invalid start value 42
+Func 87334 Invalid start value 746b
+Func 87e7e Invalid start value 8b11
+Func 88080 Invalid start value c0
+Func 88500 Invalid start value 0
+Func 89018 Invalid start value 51e3
+Func 89a9a Invalid start value 666
+Func 89f00 Invalid start value 241b
+Func 89f0a Invalid start value 2d24
+Func 89f80 Invalid start value ff
+Func 8a200 Invalid start value 808
+
+
+ --- Outputting Listing to C:\Users\Anthony\sad\Windows\X1L_lst.txt------------
+
+Invalid opcode at 8260e
+
+
+---------------------------------------------------------------------------------------------
+The disassembler has scanned the binary and arrived at the following final command list.
+This list is not guaranteed to be perfect, but should be a good basic start.
+This following list can be copied and pasted into a dir file.  ( #cmd = user command/directive)
+---------------------------------------------------------------------------------------------
+
+
+opts   :C F G N P S 
+
+bank 8      0   dfff
+
+rbase 72 180       # cmd
+rbase 74 280       # cmd
+rbase 76 380       # cmd
+rbase 78 480       # cmd
+rbase 7a 580       # cmd
+rbase 7c 780       # cmd
+rbase 7e 8b0e7       # cmd
+rbase 90 83b0c       # cmd
+rbase f0 89a00       # cmd
+rbase f2 89d1c       # cmd
+rbase f4 89d36       # cmd
+rbase f6 8a5d0       # cmd
+rbase f8 8a664       # cmd
+rbase fa 8ad44       # cmd
+rbase fc 8afde       # cmd
+rbase fe 8afe8       # cmd
+
+
+code    2000 2003         # cmd
+word    200e 200f         # cmd
+vect    2010 201f         # cmd
+byte    2020 2021         # cmd
+word    2022 2031         # cmd
+code    2032 21e1         # cmd
+vect    21e2 2299         # cmd
+code    22be 2362         # cmd
+code    2365 2575         # cmd
+vect    2576 25cb         # cmd
+code    25cc 2635         # cmd
+code    2637 266a         # cmd
+code    2670 2670         # cmd
+code    2956 2956         # cmd
+code    2c1e 2d49         # cmd
+code    2d88 2de4         # cmd
+word    2de6 2de7         # cmd
+code    2dec 2ef0         # cmd
+code    2f0f 2f8d         # cmd
+code    2fff 3016         # cmd
+code    303c 3629         # cmd
+code    364b 377b         # cmd
+code    377d 3786         # cmd
+code    3789 378c         # cmd
+code    378e 386a         # cmd
+code    386d 3a13         # cmd
+byte    3a14 3a14         # cmd
+code    3a19 3aeb         # cmd
+byte    3aec 3aec         # cmd
+word    3b0c 3b0d         # cmd
+byte    3b3f 3b3f         # cmd
+code    3b87 4231         # cmd
+code    42f6 432f         # cmd
+code    4355 4363         # cmd
+byte    452d 452d         # cmd
+byte    452f 452f         # cmd
+word    4580 4581         # cmd
+code    460c 4aa2         # cmd
+word    4aa6 4aa7         # cmd
+word    4aac 4aad         # cmd
+code    4ab0 5346         # cmd
+code    53b5 54f0         # cmd
+code    54f4 5e73         # cmd
+word    5e76 5e77         # cmd
+word    5e7c 5e7d         # cmd
+code    5e80 7928         # cmd
+byte    792e 792e         # cmd
+code    792f 8729         # cmd
+code    875d 92f7         # cmd
+timerl  92f8 93fb: W N          # cmd
+code    93fc 9583         # cmd
+code    9608 976c         # cmd
+word    9772 9773         # cmd
+word    9778 9779         # cmd
+code    9786 9931         # cmd
+word    9932 9933         # cmd
+word    9a00 9a09         # cmd
+byte    9a0a 9a0b         # cmd
+word    9a0c 9a11         # cmd
+byte    9a12 9a13         # cmd
+word    9a14 9a15         # cmd
+byte    9a16 9a17         # cmd
+word    9a18 9a23         # cmd
+func    9a2a 9aa1  "MAF_Transfer"  : W X : W X          # cmd
+func    9aa2 9aab  "Func1"  : Y X : Y X          # cmd
+func    9aac 9abf  "Func2"  : W X : W X          # cmd
+func    9ac0 9acd  "Func3"  : S Y X : Y X          # cmd
+func    9ace 9ae9  "Func4"  : S W X : W X          # cmd
+func    9aea 9afd  "Func5"  : W X : W X          # cmd
+func    9afe 9b11  "Func6"  : W X : W X          # cmd
+func    9b12 9b21  "Func7"  : S Y X : Y X          # cmd
+func    9b22 9b2f  "Func8"  : S Y X : Y X          # cmd
+func    9b30 9b57  "Func9"  : W X : W X          # cmd
+table   9b58 9b89  "Table1"  : Y X O 10          # cmd
+table   9b8a 9bbb  "Table2"  : Y X O 10          # cmd
+table   9bbc 9bed  "Table3"  : Y X O 10          # cmd
+table   9bee 9c1f  "Table4"  : Y X O 10          # cmd
+func    9c20 9c37  "Func10"  : W X : W X          # cmd
+func    9c38 9c45  "Func11"  : Y X : Y X          # cmd
+func    9c46 9c4f  "Func12"  : S Y X : Y X          # cmd
+func    9c50 9c6f  "Func13"  : W X : W X          # cmd
+func    9c70 9c7b  "Func14"  : S Y X : Y X          # cmd
+func    9c7c 9c97  "Func15"  : W X : W X          # cmd
+func    9c98 9cb3  "Func16"  : W X : W X          # cmd
+func    9cb4 9ccf  "Func17"  : W X : W X          # cmd
+func    9cd0 9cd9  "Func18"  : Y X : Y X          # cmd
+func    9cda 9ce7  "Func19"  : Y X : Y X          # cmd
+func    9ce8 9cf1  "Func20"  : Y X : Y X          # cmd
+func    9cf2 9d07  "Func21"  : Y X : Y X          # cmd
+func    9d08 9d1b  "Func22"  : Y X : S Y X          # cmd
+word    9d1c 9d1d         # cmd
+byte    9d1e 9d1e         # cmd
+word    9d20 9d21         # cmd
+byte    9d22 9d24         # cmd
+word    9d26 9d2b         # cmd
+byte    9d2c 9d2f         # cmd
+word    9d30 9d37         # cmd
+byte    9d38 9d3e         # cmd
+word    9d40 9d45         # cmd
+byte    9d46 9d46         # cmd
+word    9d48 9d53         # cmd
+byte    9d54 9d55         # cmd
+word    9d56 9d5b         # cmd
+byte    9d5c 9d5c         # cmd
+byte    9d61 9d67         # cmd
+word    9d68 9d6b         # cmd
+byte    9d6c 9d6d         # cmd
+word    9d6e 9d75         # cmd
+byte    9d76 9d79         # cmd
+word    9d7a 9d7b         # cmd
+byte    9d7c 9d80         # cmd
+word    9d82 9d8b         # cmd
+byte    9d8c 9d8e         # cmd
+byte    9d93 9d95         # cmd
+word    9d96 9dab         # cmd
+byte    9dac 9db4         # cmd
+word    9db6 9dcf         # cmd
+byte    9dd0 9ddb         # cmd
+word    9ddc 9ddd         # cmd
+byte    9dde 9dde         # cmd
+word    9de0 9df5         # cmd
+byte    9df6 9df6         # cmd
+word    9df8 9e0f         # cmd
+byte    9e10 9e10         # cmd
+word    9e12 9e17         # cmd
+byte    9e18 9e1e         # cmd
+word    9e20 9e29         # cmd
+byte    9e2a 9e2a         # cmd
+word    9e2c 9e2f         # cmd
+byte    9e30 9e30         # cmd
+word    9e32 9e33         # cmd
+byte    9e34 9e36         # cmd
+word    9e38 9e43         # cmd
+byte    9e44 9e45         # cmd
+word    9e46 9e49         # cmd
+byte    9e4a 9e4a         # cmd
+word    9e4c 9e51         # cmd
+byte    9e52 9e55         # cmd
+word    9e56 9e5d         # cmd
+byte    9e5e 9e5f         # cmd
+word    9e60 9e63         # cmd
+byte    9e64 9e66         # cmd
+byte    9e68 9e69         # cmd
+func    9e6a 9e91  "Func23"  : W X : W X          # cmd
+func    9e92 9ead  "Func24"  : W X : S W X          # cmd
+func    9eae 9ecd  "Func25"  : W X : W X          # cmd
+func    9ece 9edd  "Func26"  : W X : W X          # cmd
+func    9ede 9eed  "Func27"  : W X : W X          # cmd
+func    9eee 9ef7  "Func28"  : Y X : Y X          # cmd
+table   9ef8 9f2f  "Table5"  : Y X O 8          # cmd
+func    9f30 9f4b  "Func29"  : S W X : W X          # cmd
+func    9f4c 9f63  "Func30"  : W X : W X          # cmd
+func    9f64 9f7b  "Func31"  : W X : W X          # cmd
+func    9f7c 9f93  "Func32"  : W X : W X          # cmd
+func    9f94 9faf  "Func33"  : S W X : W X          # cmd
+table   9fb0 9fc8  "Table6"  : Y X O 5          # cmd
+table   9fc9 9fe1  "Table7"  : Y X O 5          # cmd
+table   9fe2 9ffa  "Table8"  : Y X O 5          # cmd
+func    9ffc a01f  "Func34"  : S W X : W X          # cmd
+func    a020 a02d  "Func35"  : S Y X : Y X          # cmd
+func    a02e a049  "Func36"  : S W X : W X          # cmd
+func    a04a a065  "Func37"  : W X : W X          # cmd
+func    a066 a081  "Func38"  : W X : W X          # cmd
+func    a082 a099  "Func39"  : W X : W X          # cmd
+func    a09a a0b1  "Func40"  : W X : W X          # cmd
+func    a0b2 a0bd  "Func41"  : S Y X : Y X          # cmd
+func    a0be a0d5  "Func42"  : W X : W X          # cmd
+func    a0d6 a0f5  "Func43"  : W X : W X          # cmd
+func    a0f6 a111  "Func44"  : W X : W X          # cmd
+func    a112 a12d  "Func45"  : W X : W X          # cmd
+func    a12e a13b  "Func46"  : S Y X : Y X          # cmd
+func    a13c a15b  "Func47"  : S W X : W X          # cmd
+func    a15c a169  "Func48"  : Y X : Y X          # cmd
+table   a16a a1b9  "Table9"  : Y X O 10          # cmd
+table   a1ba a209  "Table10"  : Y X O 10          # cmd
+table   a20a a259  "Table11"  : Y X O 10          # cmd
+func    a25a a279  "Func49"  : W X : W X          # cmd
+table   a27a a299  "Table12"  : Y X O 4          # cmd
+table   a29a a2b9  "Table13"  : Y X O 4          # cmd
+table   a2ba a2d9  "Table14"  : Y X O 4          # cmd
+table   a2da a2f9  "Table15"  : S Y X O 4          # cmd
+table   a2fa a349  "Table16"  : Y X O 10          # cmd
+table   a34a a399  "Table17"  : Y X O 10          # cmd
+table   a39a a3e9  "Table18"  : Y X O 10          # cmd
+func    a3ea a3f7  "Func50"  : Y X : Y X          # cmd
+func    a3f8 a409  "Func51"  : S Y X : Y X          # cmd
+func    a40a a429  "Func52"  : W X : W X          # cmd
+func    a42a a441  "Func53"  : Y X : Y X          # cmd
+func    a442 a455  "Func54"  : W X : W X          # cmd
+func    a456 a463  "Func55"  : S Y X : Y X          # cmd
+func    a464 a493  "Func56"  : W X : W X          # cmd
+func    a494 a49f  "Func57"  : Y X : Y X          # cmd
+func    a4a0 a4ad  "Func58"  : S Y X : Y X          # cmd
+func    a4ae a4c9  "Func59"  : W X : W X          # cmd
+func    a4ca a4d5  "Func60"  : S Y X : Y X          # cmd
+func    a4d6 a4e9  "Func61"  : W X : W X          # cmd
+func    a4ea a4f1  "Func62"  : Y X : Y X          # cmd
+table   a4f2 a51b  "Table19"  : Y X O 7          # cmd
+func    a51c a52d  "Func63"  : Y X : Y X          # cmd
+func    a52e a53f  "Func64"  : Y X : Y X          # cmd
+func    a540 a54d  "Func65"  : Y X : Y X          # cmd
+func    a54e a569  "Func66"  : W X : W X          # cmd
+func    a56a a575  "Func67"  : Y X : Y X          # cmd
+byte    a576 a576
+byte    a57f a57f         # cmd
+byte    a5c6 a5c6
+word    a5d0 a5d1         # cmd
+byte    a5d2 a5d5         # cmd
+word    a5d6 a5d7         # cmd
+byte    a5d8 a5d9         # cmd
+word    a5da a5db         # cmd
+byte    a5dc a5dd         # cmd
+word    a5de a5df         # cmd
+byte    a5e0 a5e1         # cmd
+word    a5e2 a5eb         # cmd
+byte    a5ec a5f0         # cmd
+word    a5f6 a5f9         # cmd
+byte    a5fa a5fc         # cmd
+word    a5fe a601         # cmd
+byte    a602 a602         # cmd
+byte    a607 a607         # cmd
+word    a608 a60b         # cmd
+byte    a60c a613         # cmd
+byte    a618 a61f         # cmd
+word    a620 a62f         # cmd
+byte    a630 a632         # cmd
+word    a634 a635         # cmd
+byte    a636 a639         # cmd
+word    a63a a63b         # cmd
+byte    a63c a643         # cmd
+word    a644 a645         # cmd
+byte    a646 a648         # cmd
+word    a64a a64d         # cmd
+byte    a64e a64e         # cmd
+func    a650 a663  "Func68"  : W X : W X          # cmd
+word    a664 a669         # cmd
+byte    a66a a66b         # cmd
+word    a66c a675         # cmd
+byte    a676 a676         # cmd
+byte    a678 a67a         # cmd
+word    a67c a67f         # cmd
+byte    a680 a682         # cmd
+word    a684 a687         # cmd
+byte    a688 a68b         # cmd
+word    a68c a69f         # cmd
+byte    a6a0 a6a2         # cmd
+word    a6a4 a6ab         # cmd
+byte    a6ac a6ad         # cmd
+word    a6ae a6b3         # cmd
+word    a6b6 a6b7         # cmd
+byte    a6b8 a6b8         # cmd
+byte    a6ba a6ba         # cmd
+word    a6bc a6c3         # cmd
+byte    a6c4 a6c4         # cmd
+word    a6c6 a6c9         # cmd
+byte    a6ca a6ca         # cmd
+word    a6cc a6d1         # cmd
+byte    a6d2 a6d2         # cmd
+word    a6d4 a6db         # cmd
+byte    a6dc a6e4         # cmd
+word    a6e6 a6ed         # cmd
+byte    a6ee a6f2         # cmd
+word    a6f4 a6f9         # cmd
+byte    a6fa a6fb         # cmd
+word    a6fc a6ff         # cmd
+byte    a700 a703         # cmd
+word    a704 a705         # cmd
+func    a706 a729  "Func69"  : S W X : W X          # cmd
+func    a72a a73d  "Func70"  : W X : W X          # cmd
+func    a73e a75d  "Func71"  : S W X : W X          # cmd
+func    a75e a76b  "Func72"  : S Y X : Y X          # cmd
+func    a76c a77f  "Func73"  : W X : W X          # cmd
+func    a780 a78b  "Func74"  : Y X : Y X          # cmd
+func    a78c a79f  "Func75"  : W X : W X          # cmd
+func    a7a0 a7ab  "Func76"  : Y X : Y X          # cmd
+func    a7ac a7cf  "Func77"  : W X : W X          # cmd
+func    a7d0 a7d9  "Func78"  : Y X : Y X          # cmd
+func    a7da a7e7  "Func79"  : S Y X : Y X          # cmd
+func    a7e8 a7f5  "Func80"  : S Y X : Y X          # cmd
+func    a7f6 a801  "Func81"  : Y X : Y X          # cmd
+func    a802 a80f  "Func82"  : Y X : Y X          # cmd
+func    a810 a81b  "Func83"  : S Y X : Y X          # cmd
+func    a81c a83b  "Func84"  : S W X : S W X          # cmd
+func    a83c a849  "Func85"  : Y X : Y X          # cmd
+table   a84a a899  "Table20"  : Y X O 10          # cmd
+table   a89a a8e9  "Table21"  : Y X O 10          # cmd
+table   a8ea a939  "Table22"  : Y X O 10          # cmd
+table   a93a a989  "Table23"  : Y X O 10          # cmd
+table   a98a a9a7  "Table24"  : Y X O 10          # cmd
+table   a9a8 a9df  "Table25"  : S Y X O 7          # cmd
+table   a9e0 aa17  "Table26"  : S Y X O 7          # cmd
+table   aa18 aa67  "Table27"  : Y X O 10          # cmd
+func    aa68 aa73  "Func86"  : Y X : Y X          # cmd
+func    aa74 aa85  "Func87"  : Y X : Y X          # cmd
+func    aa86 aa89  "Func88"  : Y X : Y X          # cmd
+func    aa90 aa9b  "Func89"  : Y X : Y X          # cmd
+table   aa9c aaeb  "Table28"  : Y X O 10          # cmd
+func    aaec ab0b  "Func90"  : W X : W X          # cmd
+table   ab0c ab6f  "Table29"  : Y X O 10          # cmd
+table   ab70 abd3  "Table30"  : Y X O 10          # cmd
+table   abd4 ac36  "Table31"  : Y X O 11          # cmd
+func    ac38 ac63  "Func91"  : W X : W X          # cmd
+table   ac96 acc7  "Table32"  : Y X O 10          # cmd
+table   acc8 acf9  "Table33"  : Y X O 10          # cmd
+table   acfa ad2b  "Table34"  : Y X O 10          # cmd
+func    ad2c ad43  "Func92"  : W X : W X          # cmd
+word    ad44 ad47         # cmd
+byte    ad48 ad48         # cmd
+byte    ad4a ad4a         # cmd
+byte    ad4c ad4c         # cmd
+word    ad4e ad55         # cmd
+byte    ad56 ad56         # cmd
+word    ad5a ad5b         # cmd
+byte    ad5c ad5c         # cmd
+word    ad5e ad65         # cmd
+byte    ad66 ad66         # cmd
+word    ad68 ad69         # cmd
+byte    ad6a ad6a         # cmd
+byte    ad6f ad70         # cmd
+word    ad72 ad75         # cmd
+byte    ad76 ad76         # cmd
+word    ad78 ad7b         # cmd
+byte    ad7c ad7d         # cmd
+word    ad7e ad7f         # cmd
+byte    ad80 ad80         # cmd
+word    ad82 ad8f         # cmd
+byte    ad90 ad91         # cmd
+word    ad92 ad93         # cmd
+byte    ad94 ad95         # cmd
+word    ad96 ad9f         # cmd
+byte    ada0 ada0         # cmd
+word    ada2 adbd         # cmd
+func    adbe adcb  "Func93"  : Y X : Y X          # cmd
+func    adcc ade3  "Func94"  : W X : W X          # cmd
+func    ade4 adff  "Func95"  : W X : W X          # cmd
+func    ae00 ae09  "Func96"  : Y X : Y X          # cmd
+func    ae0a ae31  "Func97"  : W X : W X          # cmd
+func    ae32 ae3d  "Func98"  : S Y X : Y X          # cmd
+func    ae3e ae47  "Func99"  : Y X : Y X          # cmd
+func    ae48 ae53  "Func100"  : Y X : Y X          # cmd
+func    ae54 ae5d  "Func101"  : S Y X : Y X          # cmd
+func    ae5e ae79  "Func102"  : S W X : S W X          # cmd
+func    ae7a aea1  "Func103"  : W X : W X          # cmd
+func    aea2 aec5  "Func104"  : W X : W X          # cmd
+table   aeca af19  "Table35"  : Y X O 10          # cmd
+table   af1a af69  "Table36"  : Y X O 10          # cmd
+table   af6a afb9  "Table37"  : Y X O 10          # cmd
+func    afba afc5  "Func105"  : Y X : Y X          # cmd
+func    afc6 afcf  "Func106"  : Y X : Y X          # cmd
+func    afd2 afdd  "Func107"  : Y X : Y X          # cmd
+word    afde afdf         # cmd
+byte    afe0 afe2         # cmd
+word    afe4 afe5         # cmd
+word    afe8 afe9         # cmd
+byte    afea afee         # cmd
+word    aff0 aff1         # cmd
+byte    aff4 aff8         # cmd
+word    affa affd         # cmd
+byte    affe afff         # cmd
+word    b000 b003         # cmd
+byte    b006 b01e         # cmd
+word    b020 b021         # cmd
+byte    b022 b023         # cmd
+word    b026 b02b         # cmd
+word    b030 b031         # cmd
+word    b034 b035         # cmd
+word    b03c b047         # cmd
+word    b04a b04d         # cmd
+byte    b04e b04f         # cmd
+byte    b051 b051         # cmd
+word    b052 b055         # cmd
+byte    b056 b057         # cmd
+word    b058 b05d         # cmd
+word    b060 b061         # cmd
+byte    b064 b065         # cmd
+word    b068 b06b         # cmd
+byte    b06c b06d         # cmd
+word    b06e b071         # cmd
+byte    b072 b072         # cmd
+word    b076 b077         # cmd
+word    b07c b07d         # cmd
+byte    b07e b07e         # cmd
+word    b082 b083         # cmd
+word    b090 b097         # cmd
+byte    b0a7 b0a9         # cmd
+byte    b0ab b0ab         # cmd
+byte    b0ae b0af         # cmd
+byte    b0b7 b0b9         # cmd
+word    b0bc b0bf         # cmd
+word    b0c4 b0c5         # cmd
+byte    b0db b0db         # cmd
+word    b0dc b0df         # cmd
+byte    b0e0 b0e0         # cmd
+word    b0e2 b0e9         # cmd
+byte    b0ea b0ec         # cmd
+byte    b0ee b0ee         # cmd
+word    b0f0 b0f1         # cmd
+word    b0f6 b0f7         # cmd
+word    b0fc b101         # cmd
+byte    b102 b102         # cmd
+word    b104 b109         # cmd
+word    b112 b115         # cmd
+word    b11e b11f         # cmd
+word    b126 b127         # cmd
+byte    b128 b128         # cmd
+word    b12a b12f         # cmd
+byte    b130 b131         # cmd
+word    b138 b13f         # cmd
+byte    b141 b141         # cmd
+byte    b15c b15e         # cmd
+func    b1a8 b1b1  "Func108"  : Y X : Y X          # cmd
+fill    b1b2 ffff         # cmd
+
+xcode   b1b2 ffff
+
+
+# ------------ Subroutine list
+sub 2032 "Reset_All"  
+sub 2161 "Sub2"  
+sub 21b8 "Sub3"  
+sub 21d0 "Sub4"  
+sub 220f "Sub5"  
+sub 22be "Sub6"  
+sub 2369 "Sub7"  
+sub 2380 "Sub8"  
+sub 238f "Sub9"  
+sub 2392 "Sub10"  
+sub 2395 "Sub11"  
+sub 239e "Sub12"  
+sub 2400 "Sub13"  
+sub 2423 "Sub14"  
+sub 2429 "Sub15"  
+sub 242c "Sub16"  
+sub 2435 "Sub17"  
+sub 2440 "Sub18"  
+sub 246a "Sub19"  
+sub 248f "Sub20"  
+sub 24b0 "Sub21"  
+sub 24cd "Sub22"  
+sub 2528 "Sub23"  
+sub 25cc "Sub24"  
+sub 2c1e "Sub25"  
+sub 2cf9 "Sub26"  
+sub 2cfe "Sub27"  
+sub 2d0a "Sub28"  
+sub 2d12 "Sub29"  
+sub 2d1c "Sub30"  : Y             # by cmd
+sub 2d35 "Sub31"  : W N             # by cmd
+sub 2d88 "Sub32"  
+sub 2dbf "Sub33"  
+sub 2dec "Sub34"  
+sub 2e55 "Sub35"  
+sub 2ecb "Sub36"  
+sub 2ee9 "Sub37"  : W N : W N : Y N             # by cmd
+sub 2f30 "Sub38"  : E 3 f0 N             # by cmd
+sub 2f3a "Sub39"  
+sub 2f55 "Sub40"  
+sub 2f76 "Sub41"  
+sub 2f89 "Sub42"  
+sub 2fff "Sub43"  : W N : W N             # by cmd
+sub 303f "Sub44"  
+sub 305b "Sub45"  
+sub 3074 "Sub46"  
+sub 308d "Sub47"  
+sub 309e "Sub48"  
+sub 30b1 "Sub49"  
+sub 30f7 "Sub50"  : Y N             # by cmd
+sub 30fb "Sub51"  
+sub 3109 "Sub52"  : W N : W N : W N : Y N             # by cmd
+sub 3128 "Sub53"  
+sub 31e1 "Sub54"  
+sub 3200 "Sub55"  
+sub 3226 "Sub56"  
+sub 3242 "Sub57"  
+sub 326e "Sub58"  
+sub 32a6 "Sub59"  
+sub 32c1 "Sub60"  
+sub 32ea "Sub61"  
+sub 3303 "Sub62"  
+sub 332f "Sub63"  
+sub 3337 "Sub64"  : W N             # by cmd
+sub 333c "Sub65"  : W N             # by cmd
+sub 3386 "Sub66"  
+sub 338b "Sub67"  : W N             # by cmd
+sub 339c "Sub68"  
+sub 33a8 "Sub69"  
+sub 33c3 "Sub70"  
+sub 3409 "Sub71"  
+sub 3418 "Sub72"  
+sub 3425 "Sub73"  
+sub 3467 "Sub74"  
+sub 34a5 "Sub75"  : W N : W N : W N : W N             # by cmd
+sub 34eb "Sub76"  
+sub 34f8 "Sub77"  
+sub 3515 "Sub78"  
+sub 3547 "Sub79"  
+sub 3566 "Sub80"  
+sub 3625 "Sub81"  
+sub 364b "Sub82"  
+sub 3662 "Sub83"  
+sub 36a0 "Sub84"  
+sub 36c7 "Sub85"  
+sub 36ee "Sub86"  
+sub 3701 "Sub87"  
+sub 375f "Sub88"  
+sub 385a "Sub89"  
+sub 38af "Sub90"  
+sub 38b2 "Sub91"  
+sub 38ee "Sub92"  
+sub 3906 "Sub93"  
+sub 3931 "Sub94"  
+sub 3aad "Sub95"  
+sub 3abb "Sub96"  
+sub 3b87 "Sub97"  
+sub 3bf3 "Sub98"  
+sub 3c70 "Sub99"  
+sub 3c72 "Sub100"  
+sub 3c82 "Sub101"  
+sub 3c84 "Sub102"  
+sub 3c9c "I_HSI_0"  
+sub 3cab "Sub103"  
+sub 3d3f "I_HSO_1"  
+sub 3f56 "Sub104"  
+sub 4021 "I_Timer_OVF"  
+sub 403e "I_Ignore"  
+sub 403f "I_HSO_2"  
+sub 4059 "I_External"  
+sub 4209 "Sub105"  
+sub 42f6 "Sub106"  
+sub 4311 "Sub107"  
+sub 4355 "Sub108"  
+sub 460c "Sub109"  
+sub 4a4c "Sub110"  
+sub 4ab0 "Sub111"  
+sub 4abe "Sub112"  
+sub 4d4b "Sub113"  
+sub 4d9f "Sub114"  
+sub 4e0e "Sub115"  
+sub 4ea6 "Sub116"  
+sub 4eb4 "Sub117"  
+sub 4f70 "Sub118"  
+sub 5002 "Sub119"  
+sub 5064 "Sub120"  
+sub 5173 "Sub121"  
+sub 518a "Sub122"  
+sub 51a8 "Sub123"  
+sub 51b4 "Sub124"  
+sub 51bd "Sub125"  
+sub 52de "Sub126"  
+sub 5300 "Sub127"  
+sub 53b5 "Sub128"  : E 4 f0 N : Y O 2  : F 1 32 Y S S : F 1 32 Y S S : F 1 32 Y S S            # by cmd
+sub 53ba "Sub129"  : E 4 f0 N : Y O 2  : F 1 32 Y S S : F 1 32 Y S S : F 1 32 Y S S : F 1 32 Y S S            # by cmd
+sub 53bd "Sub130"  : E 4 f0 N : Y O 2  : F 1 32 Y S S : F 1 32 Y S S : F 1 32 Y S S            # by cmd
+sub 53c0 "Sub131"  : E 4 f0 N : Y O 2  : F 1 32 Y S S : F 1 32 Y S S            # by cmd
+sub 542b "Sub132"  : E 4 f0 N : Y O 2  : F 1 32 W S S : F 1 32 W S S : F 1 32 W S S            # by cmd
+sub 5430 "Sub133"  : E 4 f0 N : Y O 2  : F 1 32 W S S : F 1 32 W S S : F 1 32 W S S : F 1 32 W S S            # by cmd
+sub 5433 "Sub134"  : E 4 f0 N : Y O 2  : F 1 32 W S S : F 1 32 W S S : F 1 32 W S S            # by cmd
+sub 5436 "Sub135"  : E 4 f0 N : Y O 2  : F 1 32 W S S : F 1 32 W S S            # by cmd
+sub 549f "Sub136"  
+sub 54a1 "Sub137"  
+sub 54a6 "Sub138"  
+sub 54a8 "Sub139"  
+sub 54d1 "Sub140"  
+sub 54f4 "UTabLU1"   : F 2 38 34 W : F 2 38 34 W            # by cmd
+sub 5500 "STabLU1"   : F 2 38 34 Y : F 2 38 34 W : F 2 38 34 W            # by cmd
+sub 5503 "UTabLU2"   : F 2 38 34 W            # by cmd
+sub 5538 "Sub141"  
+sub 5568 "Sub142"  
+sub 559f "Sub143"  
+sub 5616 "Sub144"  
+sub 5668 "Sub145"  
+sub 5a9d "Sub146"  
+sub 5aa5 "Sub147"  
+sub 5ab7 "UUWFunLU1"  
+sub 5cb0 "Sub148"  
+sub 5dbb "Sub149"  
+sub 5dc6 "Sub150"  
+sub 5e41 "Sub151"  
+sub 5e80 "Sub152"  
+sub 5ffd "Sub153"  
+sub 60ea "Sub154"  
+sub 60fb "Sub155"  
+sub 61aa "Sub156"  
+sub 61f9 "Sub157"  
+sub 631b "Sub158"  
+sub 6366 "Sub159"  
+sub 63ea "Sub160"  
+sub 67d3 "Sub161"  
+sub 6854 "Sub162"  
+sub 6861 "Sub163"  
+sub 6929 "Sub164"  
+sub 6944 "Sub165"  
+sub 6963 "Sub166"  
+sub 69b7 "UUWFunLU2"  
+sub 6b40 "Sub167"  
+sub 6b55 "Sub168"  
+sub 6c02 "Sub169"  
+sub 6d00 "Sub170"  
+sub 6d17 "Sub171"  
+sub 6d29 "Sub172"  
+sub 6d47 "Sub173"  
+sub 6d4f "Sub174"  
+sub 6d94 "Sub175"  
+sub 6e22 "Sub176"  
+sub 6e50 "Sub177"  
+sub 6ede "Sub178"  
+sub 7065 "Sub179"  
+sub 7104 "Sub180"  
+sub 71f9 "Sub181"  
+sub 7210 "Sub182"  
+sub 736f "Sub183"  
+sub 748a "Sub184"  
+sub 74b5 "Sub185"  
+sub 74ca "Sub186"  
+sub 763b "Sub187"  
+sub 7829 "Sub188"  
+sub 785f "Sub189"  
+sub 7878 "Sub190"  
+sub 791f "Sub191"  
+sub 7957 "Sub192"  
+sub 798f "Sub193"  
+sub 7993 "Sub194"  
+sub 7a31 "Sub195"  
+sub 7cc1 "Sub196"  
+sub 7cc9 "Sub197"  
+sub 7cd9 "Sub198"  
+sub 7cf8 "Sub199"  
+sub 7d89 "Sub200"  
+sub 7ef8 "Sub201"  
+sub 7f5e "Sub202"  
+sub 8055 "Sub203"  
+sub 8058 "Sub204"  
+sub 80ec "Sub205"  
+sub 830e "Sub206"  
+sub 835d "Sub207"  
+sub 841d "Sub208"  
+sub 84d1 "Sub209"  
+sub 85f0 "UUBFunLU1"  
+sub 86fc "Sub210"  
+sub 875d "Sub211"  
+sub 883b "Sub212"  
+sub 8ae0 "Sub213"  
+sub 8aef "Sub214"  
+sub 8afe "Sub215"  
+sub 8b0e "Sub216"  
+sub 8b1b "Sub217"  
+sub 8b1f "UUWFunLU3"  
+sub 8b34 "Sub218"  
+sub 8c47 "Sub219"  
+sub 8cd5 "Sub220"  
+sub 8ce8 "Sub221"  
+sub 8df4 "Sub222"  
+sub 8ee1 "Sub223"  
+sub 9245 "Sub224"  
+sub 93fc "Sub225"  
+sub 950b "Sub226"  
+sub 9608 "Sub227"  
+sub 974b "Sub228"  
+sub 9786 "Sub229"  
+sub 9787 "Sub230"  
+sub 9818 "Sub231"  
+sub 9889 "Sub232"  
+sub 98de "Sub233"  
+sub 98ee "Sub234"  
+sub 98fe "Sub235"  
+sub 991c "Sub236"  
+sub 992e "Sub237"  
+
+
+# ------------ Symbol list ----
+sym 2  "LSO_Port"
+sym 2  "CPU_OK" :T 6 
+sym 3  "LIO_Port"
+sym 4  "AD_Low"
+sym 4  "AD_Cmd" :W
+sym 4  "AD_Cmd" :T 0 W
+sym 5  "AD_High"
+sym 5  "WDG_Timer" :W
+sym 5  "WDG_Timer" :T 0 W
+sym 6  "IO_Timer"
+sym 7  "IO_Timer_Hi"
+sym 8  "INT_Mask"
+sym 9  "INT_Pend"
+sym a  "IO_Status"
+sym a  "HSO_OVF" :T 0 
+sym a  "HSI_OVF" :T 1 
+sym a  "HSI_Ready" :T 2 
+sym a  "AD_Ready" :T 3 
+sym a  "INT_Service" :T 4 
+sym a  "INT_Priority" :T 5 
+sym b  "HSI_Sample"
+sym c  "HSI_Mask"
+sym d  "HSI_Data"
+sym d  "HSO_Cmd" :W
+sym d  "HSO_Cmd" :T 0 W
+sym e  "HSI_Time"
+sym e  "HSO_Time" :W
+sym e  "HSO_Time" :T 0 W
+sym f  "HSI_Time_Hi"
+sym f  "HSO_Time_Hi" :W
+sym f  "HSO_Time_Hi" :T 0 W
+sym 10  "STACK"
+sym 314  "high_slope"
+sym 316  "low_slope"
+sym 9dbc  "High_Slope"
+sym 9dbe  "Low_Slope"
+
+
+------ END Disassembly run ------
+
