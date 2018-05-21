@@ -1,4 +1,4 @@
-opts   :C F G N P S 
+opts   :C G N P S 
 
 rbase 72 180
 rbase 74 280
@@ -6,16 +6,16 @@ rbase 76 380
 rbase 78 480
 rbase 7a 580
 rbase 7c 780
-rbase 7e 8b0e7
-rbase 90 83b0c
-rbase f0 89a00       
-rbase f2 89d1c       
-rbase f4 89d36       
-rbase f6 8a5d0       
-rbase f8 8a664       
-rbase fa 8ad44       
-rbase fc 8afde       
-rbase fe 8afe8       
+rbase 7e b0e7
+rbase 90 3b0c
+rbase f0 9a00       
+rbase f2 9d1c       
+rbase f4 9d36       
+rbase f6 a5d0       
+rbase f8 a664       
+rbase fa ad44       
+rbase fc afde       
+rbase fe afe8       
 
 
 code    2000 2003
@@ -685,6 +685,7 @@ sub 98fe "Sub235"
 sub 991c "Sub236"  
 sub 992e "Sub237"
 
+# RAM Pointers
 sym 2  "LSO_Port"
 sym 2  "CPU_OK" :T 6 
 sym 3  "LIO_Port"
@@ -712,8 +713,66 @@ sym e  "HSO_Time" :W
 sym f  "HSI_Time_Hi"
 sym f  "HSO_Time_Hi" :W
 sym 10  "STACK"
+sym 12  "Tmr_OVF_cnt"
+sym 14  "HSO_IPEND2"
+sym 16  "HSO_IMASK2"
+sym 17  "LSSI_B"
+sym 18  "HOS_STATE"
+sym 19  "LSSO_C"
+sym 1a  "HSI_MODE"
+sym 1c  "HSO_TIMEC"
+
+# Flags
+sym 24  "Flags_24"
+sym 24  "Wot" :T 0 
+sym 24  "Ctnq" :T 1 
+sym 24  "Awotmr_On" :T 2 
+sym 24  "Pw_sign2" :T 3 
+sym 24  "Console_flag" :T 4 
+sym 24  "Nactmr_On" :T 5 
+sym 24  "Atmr2_On" :T 6 
+sym 24  "Tsegre_On" :T 7 
+sym 2a  "VIP_flags"
+sym 2a  "Vscdt" :T 0 
+sym 2a  "Vscst" :T 1 
+sym 2a  "Vip_enable" :T 2 
+sym 2a  "Disable_running" :T 3 
+sym 2a  "Disable_nostart" :T 4 
+sym 2a  "Self_test" :T 5 
+sym 2a  "No_start" :T 6 
+sym 2a  "Disable_vscdt" :T 7
+SYM  2d "Spout_pending" : T 0
+SYM  2d "Undsp_trans" : T 1
+SYM  2d "Double_edge" : T 2
+SYM  2d "No_fuel_save" : T 3
+SYM  2d "First_pip" : T 4
+SYM  2d "Ctflg" : T 5
+SYM  2d "Tipflg" : T 6
+SYM  2d "Tblsflg" : T 7
+SYM  2d "Flags_2D"
+SYM  e3 "Adptmr_On" : T 0
+SYM  e3 "Idleq" : T 1
+SYM  e3 "Undsp" : T 2
+SYM  e3 "Dmflg" : T 3
+SYM  e3 "Egonflg" : T 4
+SYM  e3 "Purging" : T 5
+SYM  e3 "Cttmr_On" : T 6
+SYM  e3 "Cranking" : T 7
+SYM  e3 "Flags_E3"
+sym ef  "Flags_ef"
+sym ef  "Power_up" :T 0 
+sym ef  "Wmegol" :T 1 
+sym ef  "Wrmego" :T 2 
+sym ef  "Idlflg" :T 3 
+sym ef  "Byptmr_dwn" :T 4 
+sym ef  "Lesflg" :T 5 
+sym ef  "Prgflg" :T 6 
+sym ef  "Byptmr_up" :T 7
+
+ 
 sym 314 "high_slope"
 sym 316 "low_slope"
+sym 344 "LOAD"
 sym 9a2a "MAF_Transfer"
 sym 9dbe "Low_Slope"
 sym 9dbc "High_Slope"

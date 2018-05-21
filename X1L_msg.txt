@@ -7,9 +7,6 @@
 
 
  --- Read commands from directive file = C:\Users\Anthony\sad\Windows\X1L_dir.txt
-opts   :C F G N P S 
-
-          ^ Illegal Option
 
 
  --- Start Disassembly -----
@@ -41,7 +38,7 @@ This following list can be copied and pasted into a dir file.  ( #cmd = user com
 ---------------------------------------------------------------------------------------------
 
 
-opts   :C F G N P S 
+opts   :C G N P S 
 
 bank 8      0   dfff
 
@@ -765,8 +762,62 @@ sym f  "HSI_Time_Hi"
 sym f  "HSO_Time_Hi" :W
 sym f  "HSO_Time_Hi" :T 0 W
 sym 10  "STACK"
+sym 12  "Tmr_OVF_cnt"
+sym 14  "HSO_IPEND2"
+sym 16  "HSO_IMASK2"
+sym 17  "LSSI_B"
+sym 18  "HOS_STATE"
+sym 19  "LSSO_C"
+sym 1a  "HSI_MODE"
+sym 1c  "HSO_TIMEC"
+sym 24  "Flags_24"
+sym 24  "Wot" :T 0 
+sym 24  "Ctnq" :T 1 
+sym 24  "Awotmr_On" :T 2 
+sym 24  "Pw_sign2" :T 3 
+sym 24  "Console_flag" :T 4 
+sym 24  "Nactmr_On" :T 5 
+sym 24  "Atmr2_On" :T 6 
+sym 24  "Tsegre_On" :T 7 
+sym 2a  "VIP_flags"
+sym 2a  "Vscdt" :T 0 
+sym 2a  "Vscst" :T 1 
+sym 2a  "Vip_enable" :T 2 
+sym 2a  "Disable_running" :T 3 
+sym 2a  "Disable_nostart" :T 4 
+sym 2a  "Self_test" :T 5 
+sym 2a  "No_start" :T 6 
+sym 2a  "Disable_vscdt" :T 7 
+sym 2d  "Flags_2D"
+sym 2d  "Spout_pending" :T 0 
+sym 2d  "Undsp_trans" :T 1 
+sym 2d  "Double_edge" :T 2 
+sym 2d  "No_fuel_save" :T 3 
+sym 2d  "First_pip" :T 4 
+sym 2d  "Ctflg" :T 5 
+sym 2d  "Tipflg" :T 6 
+sym 2d  "Tblsflg" :T 7 
+sym e3  "Flags_E3"
+sym e3  "Adptmr_On" :T 0 
+sym e3  "Idleq" :T 1 
+sym e3  "Undsp" :T 2 
+sym e3  "Dmflg" :T 3 
+sym e3  "Egonflg" :T 4 
+sym e3  "Purging" :T 5 
+sym e3  "Cttmr_On" :T 6 
+sym e3  "Cranking" :T 7 
+sym ef  "Flags_ef"
+sym ef  "Power_up" :T 0 
+sym ef  "Wmegol" :T 1 
+sym ef  "Wrmego" :T 2 
+sym ef  "Idlflg" :T 3 
+sym ef  "Byptmr_dwn" :T 4 
+sym ef  "Lesflg" :T 5 
+sym ef  "Prgflg" :T 6 
+sym ef  "Byptmr_up" :T 7 
 sym 314  "high_slope"
 sym 316  "low_slope"
+sym 344  "LOAD"
 sym 9dbc  "High_Slope"
 sym 9dbe  "Low_Slope"
 
